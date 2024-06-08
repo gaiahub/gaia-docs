@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Guides/Creating my First Chatbot.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Guides/Creating my First Chatbot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Guides/Creating my First Chatbot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Guides/Creating my First Chatbot.md"
               }
             }
           }
@@ -149,20 +149,28 @@
   },
   "active": "4ed134a22bf78eff",
   "lastOpenFiles": [
-    "public/publish/lib/html/file-tree.html",
-    "public/publish/lib/html",
-    "public/lib/styles/obsidian.css",
-    "public/lib/styles/main-styles.css",
-    "public/lib/styles/global-variable-styles.css",
-    "public/lib/scripts/webpage.js",
-    "public/lib/scripts/tinycolor.js",
-    "public/lib/scripts/pixi.js",
-    "public/lib/scripts/minisearch.js",
-    "public/lib/scripts/graph-wasm.wasm",
-    "public/lib/scripts/graph-wasm.js",
+    "Guides/Using Templates.md",
+    "public/public/how-to-replace-nodes.html",
+    "public/public/public/publish/lib/html/file-tree.html",
+    "public/public/public/lib/html/file-tree.html",
+    "public/public/public/publish/lib/html",
+    "public/public/public/lib/html",
+    "public/public/public/publish/lib",
+    "public/public/public/publish/index.html",
+    "public/public/public/publish",
+    "public/public/public/lib",
+    "public/public/public/index.html",
+    "public/public/lib/media/favicon.png",
+    "public/public/lib/media/874d8b8e340f75575caa.svg",
+    "Guides/index.md",
+    "Guides/How to use Credentials.md",
+    "Guides/Creating my First Chatbot.md",
+    "Guides/How to use Variables.md",
+    "Guides/How to use Custom Tools.md",
+    "Guides/How to replace nodes.md",
+    "index.md",
     "public/lib/media/favicon.png",
     "public/lib/media/874d8b8e340f75575caa.svg",
-    "index.md",
     "publish/lib/media/favicon.png",
     "publish/lib/media/874d8b8e340f75575caa.svg",
     "serarchapi.png"
