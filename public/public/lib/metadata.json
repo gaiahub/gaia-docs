@@ -1,6 +1,6 @@
 {
   "vaultName": "gaia-docs",
-  "lastExport": 1717866835498,
+  "lastExport": 1717864740991,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title",
   "useCustomHeadContent": false,
@@ -8,21 +8,12 @@
   "files": [
     "Api Reference/index.md",
     "Guides/Creating my First Chatbot.md",
-    "Guides/How to replace nodes.md",
     "Guides/How to use Credentials.md",
     "Guides/How to use Custom Tools.md",
     "Guides/How to use Variables.md",
     "Guides/index.md",
     "Guides/Integrating Chatbot in your Site.md",
     "Guides/Using Templates.md",
-    "public/api-reference/index.html",
-    "public/guides/creating-my-first-chatbot.html",
-    "public/guides/how-to-use-credentials.html",
-    "public/guides/how-to-use-custom-tools.html",
-    "public/guides/how-to-use-variables.html",
-    "public/guides/index.html",
-    "public/guides/integrating-chatbot-in-your-site.html",
-    "public/guides/using-templates.html",
     "public/lib/fonts/2d5198822ab091ce4305.woff2",
     "public/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "public/lib/fonts/05b618077343fbbd92b7.ttf",
@@ -54,12 +45,13 @@
     "public/lib/metadata.json",
     "public/lib/rss.xml",
     "public/lib/search-index.json",
-    "public/public/lib/html/file-tree.html",
-    "public/public/publish/lib/html/file-tree.html",
-    "public/public/publish/index.html",
-    "public/public/index.html",
-    "public/how-to-replace-nodes.html",
+    "public/publish/lib/html/file-tree.html",
+    "public/publish/index.html",
     "public/index.html",
+    "videos/creating_credentials.mov",
+    "videos/replacing_nodes.mov",
+    "videos/using_templates.mov",
+    "How to replace nodes.md",
     "index.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -128,169 +120,169 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 31544,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 25951,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 923,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 916,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 157786,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 311,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -302,14 +294,14 @@
       "dependencies": []
     },
     "Guides/Creating my First Chatbot.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 330,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 148,
       "exportedPath": "guides/creating-my-first-chatbot.html",
       "dependencies": []
     },
     "Guides/How to use Credentials.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 331,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 56,
       "exportedPath": "guides/how-to-use-credentials.html",
       "dependencies": []
     },
@@ -326,8 +318,8 @@
       "dependencies": []
     },
     "Guides/index.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 306,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 282,
       "exportedPath": "guides/index.html",
       "dependencies": []
     },
@@ -338,7 +330,7 @@
       "dependencies": []
     },
     "Guides/Using Templates.md": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 46,
       "exportedPath": "guides/using-templates.html",
       "dependencies": []
@@ -422,26 +414,26 @@
       "dependencies": []
     },
     "public/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 25951,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 17330,
       "exportedPath": "public/lib/html/file-tree.html",
       "dependencies": []
     },
     "public/lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 317,
       "exportedPath": "public/lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "public/lib/media/favicon.png": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 1105,
       "exportedPath": "public/lib/media/favicon.png",
       "dependencies": []
     },
     "public/lib/scripts/graph-data.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 916,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 266,
       "exportedPath": "public/lib/scripts/graph-data.js",
       "dependencies": []
     },
@@ -494,7 +486,7 @@
       "dependencies": []
     },
     "public/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 311,
       "exportedPath": "public/lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -506,117 +498,69 @@
       "dependencies": []
     },
     "public/lib/styles/obsidian.css": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1717864740991,
       "sourceSize": 157810,
       "exportedPath": "public/lib/styles/obsidian.css",
       "dependencies": []
     },
     "public/lib/metadata.json": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 19059,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 15986,
       "exportedPath": "public/lib/metadata.json",
       "dependencies": []
     },
     "public/lib/rss.xml": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 5844,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 888,
       "exportedPath": "public/lib/rss.xml",
       "dependencies": []
     },
     "public/lib/search-index.json": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 11017,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 7350,
       "exportedPath": "public/lib/search-index.json",
       "dependencies": []
     },
+    "public/publish/lib/html/file-tree.html": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 963,
+      "exportedPath": "public/publish/lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "public/publish/index.html": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 15422,
+      "exportedPath": "public/publish/index.html",
+      "dependencies": []
+    },
     "public/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 18203,
+      "modifiedTime": 1717864740991,
+      "sourceSize": 15444,
       "exportedPath": "public/index.html",
       "dependencies": []
     },
-    "Guides/How to replace nodes.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 330,
-      "exportedPath": "guides/how-to-replace-nodes.html",
+    "videos/creating_credentials.mov": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 3082064,
+      "exportedPath": "videos/creating_credentials.mov",
       "dependencies": []
     },
-    "public/api-reference/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 13829,
-      "exportedPath": "public/api-reference/index.html",
+    "videos/replacing_nodes.mov": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 39535577,
+      "exportedPath": "videos/replacing_nodes.mov",
       "dependencies": []
     },
-    "public/guides/creating-my-first-chatbot.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14683,
-      "exportedPath": "public/guides/creating-my-first-chatbot.html",
+    "videos/using_templates.mov": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 744444585,
+      "exportedPath": "videos/using_templates.mov",
       "dependencies": []
     },
-    "public/guides/how-to-use-credentials.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14226,
-      "exportedPath": "public/guides/how-to-use-credentials.html",
-      "dependencies": []
-    },
-    "public/guides/how-to-use-custom-tools.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14013,
-      "exportedPath": "public/guides/how-to-use-custom-tools.html",
-      "dependencies": []
-    },
-    "public/guides/how-to-use-variables.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 13980,
-      "exportedPath": "public/guides/how-to-use-variables.html",
-      "dependencies": []
-    },
-    "public/guides/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15235,
-      "exportedPath": "public/guides/index.html",
-      "dependencies": []
-    },
-    "public/guides/integrating-chatbot-in-your-site.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14112,
-      "exportedPath": "public/guides/integrating-chatbot-in-your-site.html",
-      "dependencies": []
-    },
-    "public/guides/using-templates.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14129,
-      "exportedPath": "public/guides/using-templates.html",
-      "dependencies": []
-    },
-    "public/public/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 17330,
-      "exportedPath": "public/public/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "public/public/publish/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 963,
-      "exportedPath": "public/public/publish/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "public/public/publish/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15422,
-      "exportedPath": "public/public/publish/index.html",
-      "dependencies": []
-    },
-    "public/public/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15444,
-      "exportedPath": "public/public/index.html",
-      "dependencies": []
-    },
-    "public/how-to-replace-nodes.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14168,
-      "exportedPath": "public/how-to-replace-nodes.html",
+    "How to replace nodes.md": {
+      "modifiedTime": 1717864740991,
+      "sourceSize": 46,
+      "exportedPath": "how-to-replace-nodes.html",
       "dependencies": []
     }
   }
