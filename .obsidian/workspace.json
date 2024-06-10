@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guides/Creating my First Chatbot.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guides/Creating my First Chatbot.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guides/Creating my First Chatbot.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guides/Creating my First Chatbot.md"
+                "file": "index.md"
               }
             }
           }
@@ -147,28 +147,70 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "4ed134a22bf78eff",
+  "floating": {
+    "id": "aabd08c248ea63ea",
+    "type": "floating",
+    "children": [
+      {
+        "id": "263aa4c5e8f1aefa",
+        "type": "window",
+        "children": [
+          {
+            "id": "7e3fe7fd1ef7ea81",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3af77cdac9f708a0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 510,
+        "y": 510,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "3af77cdac9f708a0",
   "lastOpenFiles": [
+    "public_dev/public/public/guides/creating-my-first-chatbot.html",
+    "public_dev/public/public/api-reference/index.html",
+    "public_dev/public/public/guides",
+    "public_dev/public/public/api-reference",
+    "public_dev/public/public",
+    "public_dev/public/lib/search-index.json",
+    "public_dev/public/lib/rss.xml",
+    "public_dev/public/lib/metadata.json",
+    "public_dev/public/lib/styles/obsidian.css",
+    "public_dev/public/lib/styles/main-styles.css",
+    "public_dev/public/lib/styles/global-variable-styles.css",
+    "public_dev/public/lib/media/favicon.png",
+    "public_dev/public/lib/media/874d8b8e340f75575caa.svg",
     "Guides/Using Templates.md",
-    "public/public/how-to-replace-nodes.html",
-    "public/public/public/publish/lib/html/file-tree.html",
-    "public/public/public/lib/html/file-tree.html",
-    "public/public/public/publish/lib/html",
-    "public/public/public/lib/html",
-    "public/public/public/publish/lib",
-    "public/public/public/publish/index.html",
-    "public/public/public/publish",
-    "public/public/public/lib",
-    "public/public/public/index.html",
-    "public/public/lib/media/favicon.png",
-    "public/public/lib/media/874d8b8e340f75575caa.svg",
+    "Guides/Integrating Chatbot in your Site.md",
     "Guides/index.md",
-    "Guides/How to use Credentials.md",
-    "Guides/Creating my First Chatbot.md",
     "Guides/How to use Variables.md",
     "Guides/How to use Custom Tools.md",
+    "Guides/How to use Credentials.md",
     "Guides/How to replace nodes.md",
+    "Guides/Creating my First Chatbot.md",
     "index.md",
+    "Api Reference/index.md",
+    "public/public/lib/media/favicon.png",
+    "public/public/lib/media/874d8b8e340f75575caa.svg",
     "public/lib/media/favicon.png",
     "public/lib/media/874d8b8e340f75575caa.svg",
     "publish/lib/media/favicon.png",
