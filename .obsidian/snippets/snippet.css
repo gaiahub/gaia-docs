@@ -1,0 +1,43 @@
+body {
+  --link-color: 166, 166, 166
+}
+
+/* As the plugin HTML Exporter always shows the page's name as the Title of every document, 
+   we forcely hide it using it's style name  */
+.page-title {
+	display: none!important;
+}
+
+
+.callout[data-callout="api-reference"] {
+  --callout-title-color: rgb(166, 166, 166);
+  --callout-color: 100,100,1;
+  --callout-icon: book-open-text;
+  --callout-border-opacity: 0.5;
+  --callout-radius: 8px;
+}
+.callout[data-callout="create-your-application"] {
+  --callout-title-color: rgb(166, 166, 166);
+  --callout-color: 100,100,1;
+  --callout-icon: code;
+}
+
+.callout[data-callout="guides-and-concepts"] {
+  --callout-title-color: rgb(166, 166, 166);
+  --callout-color: 100,100,1;
+  --callout-icon: book-open-text;
+  --callout-border-opacity: 0.0;  
+  --callout-icon: book-open-text;
+}
+
+.callout[data-callout="release-notes"] {
+  --callout-title-color: rgb(166, 166, 166);
+  --callout-color: 100,100,1;
+  --callout-icon: megaphone;
+}
+
+.mainMenu {
+  border-width: 10px;
+  border-color: turquoise;
+  background-color: blue;
+}

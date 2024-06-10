@@ -1,13 +1,17 @@
 {
   "vaultName": "gaia-docs",
-  "lastExport": 1717866835498,
+  "lastExport": 1718041825228,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon",
   "useCustomHeadContent": false,
-  "useCustomFavicon": false,
+  "useCustomFavicon": true,
   "files": [
     "Api Reference/index.md",
+    "Guides/Nodes/Nodes.md",
+    "Guides/Anatomy of an application.md",
+    "Guides/Concepts.md",
     "Guides/Creating my First Chatbot.md",
+    "Guides/How nodes work.md",
     "Guides/How to replace nodes.md",
     "Guides/How to use Credentials.md",
     "Guides/How to use Custom Tools.md",
@@ -15,52 +19,20 @@
     "Guides/index.md",
     "Guides/Integrating Chatbot in your Site.md",
     "Guides/Using Templates.md",
-    "public/api-reference/index.html",
-    "public/guides/creating-my-first-chatbot.html",
-    "public/guides/how-to-use-credentials.html",
-    "public/guides/how-to-use-custom-tools.html",
-    "public/guides/how-to-use-variables.html",
-    "public/guides/index.html",
-    "public/guides/integrating-chatbot-in-your-site.html",
-    "public/guides/using-templates.html",
-    "public/lib/fonts/2d5198822ab091ce4305.woff2",
-    "public/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "public/lib/fonts/05b618077343fbbd92b7.ttf",
-    "public/lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "public/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "public/lib/fonts/94f2f163d4b698242fef.otf",
-    "public/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "public/lib/fonts/72505e6a122c6acd5471.woff2",
-    "public/lib/fonts/454577c22304619db035.ttf",
-    "public/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "public/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "public/lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "public/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "public/lib/html/file-tree.html",
-    "public/lib/media/874d8b8e340f75575caa.svg",
-    "public/lib/media/favicon.png",
-    "public/lib/scripts/graph-data.js",
-    "public/lib/scripts/graph-render-worker.js",
-    "public/lib/scripts/graph-view.js",
-    "public/lib/scripts/graph-wasm.wasm",
-    "public/lib/scripts/graph-wasm.js",
-    "public/lib/scripts/minisearch.js",
-    "public/lib/scripts/pixi.js",
-    "public/lib/scripts/tinycolor.js",
-    "public/lib/scripts/webpage.js",
-    "public/lib/styles/global-variable-styles.css",
-    "public/lib/styles/main-styles.css",
-    "public/lib/styles/obsidian.css",
-    "public/lib/metadata.json",
-    "public/lib/rss.xml",
-    "public/lib/search-index.json",
-    "public/public/lib/html/file-tree.html",
-    "public/public/publish/lib/html/file-tree.html",
-    "public/public/publish/index.html",
-    "public/public/index.html",
-    "public/how-to-replace-nodes.html",
-    "public/index.html",
+    "images/api-reference.svg",
+    "images/api-reference.png",
+    "images/connecting-nodes.svg",
+    "images/connecting-nodes.png",
+    "images/favicon.ico",
+    "images/gaia_hero_nodes.png",
+    "images/guides-and-concepts.svg",
+    "images/guides-and-concepts.png",
+    "images/open_book.svg",
+    "images/payback.svg",
     "index.md",
+    "lib/media/guides-and-concepts.png",
+    "lib/media/api-reference.png",
+    "lib/media/connecting-nodes.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -84,11 +56,12 @@
     "lib/scripts/tinycolor.js",
     "lib/scripts/pixi.js",
     "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
+    "lib/media/favicon.ico",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -114,509 +87,367 @@
     "lib/scripts/tinycolor.js",
     "lib/scripts/pixi.js",
     "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
+    "lib/media/favicon.ico",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
   ],
   "fileInfo": {
-    "index.md": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 149,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 31544,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 923,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 157786,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 311,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
     "Api Reference/index.md": {
-      "modifiedTime": 1717864740991,
+      "modifiedTime": 1718041825228,
       "sourceSize": 3,
       "exportedPath": "api-reference/index.html",
       "dependencies": []
     },
+    "Guides/Nodes/Nodes.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 49,
+      "exportedPath": "guides/nodes/nodes.html",
+      "dependencies": []
+    },
+    "Guides/Anatomy of an application.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 593,
+      "exportedPath": "guides/anatomy-of-an-application.html",
+      "dependencies": []
+    },
+    "Guides/Concepts.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 484,
+      "exportedPath": "guides/concepts.html",
+      "dependencies": [
+        "lib/media/guides-and-concepts.png",
+        "lib/media/guides-and-concepts.png",
+        "lib/media/api-reference.png",
+        "lib/media/api-reference.png"
+      ]
+    },
     "Guides/Creating my First Chatbot.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 330,
+      "modifiedTime": 1718041825228,
+      "sourceSize": 366,
       "exportedPath": "guides/creating-my-first-chatbot.html",
       "dependencies": []
     },
+    "Guides/How nodes work.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 873,
+      "exportedPath": "guides/how-nodes-work.html",
+      "dependencies": [
+        "lib/media/guides-and-concepts.png",
+        "lib/media/guides-and-concepts.png",
+        "lib/media/connecting-nodes.png",
+        "lib/media/connecting-nodes.png",
+        "lib/media/api-reference.png",
+        "lib/media/api-reference.png"
+      ]
+    },
+    "Guides/How to replace nodes.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 330,
+      "exportedPath": "guides/how-to-replace-nodes.html",
+      "dependencies": []
+    },
     "Guides/How to use Credentials.md": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1718041825228,
       "sourceSize": 331,
       "exportedPath": "guides/how-to-use-credentials.html",
       "dependencies": []
     },
     "Guides/How to use Custom Tools.md": {
-      "modifiedTime": 1717864740991,
+      "modifiedTime": 1718041825228,
       "sourceSize": 3,
       "exportedPath": "guides/how-to-use-custom-tools.html",
       "dependencies": []
     },
     "Guides/How to use Variables.md": {
-      "modifiedTime": 1717864740991,
+      "modifiedTime": 1718041825228,
       "sourceSize": 3,
       "exportedPath": "guides/how-to-use-variables.html",
       "dependencies": []
     },
     "Guides/index.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 306,
+      "modifiedTime": 1718041825228,
+      "sourceSize": 0,
       "exportedPath": "guides/index.html",
       "dependencies": []
     },
     "Guides/Integrating Chatbot in your Site.md": {
-      "modifiedTime": 1717864740991,
+      "modifiedTime": 1718041825228,
       "sourceSize": 3,
       "exportedPath": "guides/integrating-chatbot-in-your-site.html",
       "dependencies": []
     },
     "Guides/Using Templates.md": {
-      "modifiedTime": 1717866835498,
+      "modifiedTime": 1718041825228,
       "sourceSize": 46,
       "exportedPath": "guides/using-templates.html",
       "dependencies": []
     },
-    "public/lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 104332,
-      "exportedPath": "public/lib/fonts/2d5198822ab091ce4305.woff2",
+    "images/api-reference.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 2706,
+      "exportedPath": "images/api-reference.svg",
       "dependencies": []
     },
-    "public/lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 7876,
-      "exportedPath": "public/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "images/api-reference.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5037,
+      "exportedPath": "images/api-reference.png",
       "dependencies": []
     },
-    "public/lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 155288,
-      "exportedPath": "public/lib/fonts/05b618077343fbbd92b7.ttf",
+    "images/connecting-nodes.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 1490,
+      "exportedPath": "images/connecting-nodes.svg",
       "dependencies": []
     },
-    "public/lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 191568,
-      "exportedPath": "public/lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "images/connecting-nodes.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5562,
+      "exportedPath": "images/connecting-nodes.png",
       "dependencies": []
     },
-    "public/lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 192740,
-      "exportedPath": "public/lib/fonts/70cc7ff27245e82ad414.ttf",
+    "images/favicon.ico": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 4286,
+      "exportedPath": "images/favicon.ico",
       "dependencies": []
     },
-    "public/lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 66800,
-      "exportedPath": "public/lib/fonts/94f2f163d4b698242fef.otf",
+    "images/gaia_hero_nodes.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 361133,
+      "exportedPath": "images/gaia_hero_nodes.png",
       "dependencies": []
     },
-    "public/lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 111708,
-      "exportedPath": "public/lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "images/guides-and-concepts.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 1373,
+      "exportedPath": "images/guides-and-concepts.svg",
       "dependencies": []
     },
-    "public/lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 104232,
-      "exportedPath": "public/lib/fonts/72505e6a122c6acd5471.woff2",
+    "images/guides-and-concepts.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5967,
+      "exportedPath": "images/guides-and-concepts.png",
       "dependencies": []
     },
-    "public/lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 161376,
-      "exportedPath": "public/lib/fonts/454577c22304619db035.ttf",
+    "images/open_book.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 1198,
+      "exportedPath": "images/open_book.svg",
       "dependencies": []
     },
-    "public/lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 105804,
-      "exportedPath": "public/lib/fonts/b5f0f109bc88052d4000.woff2",
+    "images/payback.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 6061,
+      "exportedPath": "images/payback.svg",
       "dependencies": []
     },
-    "public/lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 98868,
-      "exportedPath": "public/lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "index.md": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 676,
+      "exportedPath": "index.html",
+      "dependencies": [
+        "images/guides-and-concepts.png",
+        "images/guides-and-concepts.png",
+        "images/connecting-nodes.png",
+        "images/connecting-nodes.png",
+        "images/api-reference.png",
+        "images/api-reference.png"
+      ]
+    },
+    "lib/media/guides-and-concepts.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5967,
+      "exportedPath": "lib/media/guides-and-concepts.png",
       "dependencies": []
     },
-    "public/lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 106876,
-      "exportedPath": "public/lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/media/api-reference.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5037,
+      "exportedPath": "lib/media/api-reference.png",
       "dependencies": []
     },
-    "public/lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 106108,
-      "exportedPath": "public/lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/media/connecting-nodes.png": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5562,
+      "exportedPath": "lib/media/connecting-nodes.png",
       "dependencies": []
     },
-    "public/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 25951,
-      "exportedPath": "public/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "public/lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 317,
-      "exportedPath": "public/lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "public/lib/media/favicon.png": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 1105,
-      "exportedPath": "public/lib/media/favicon.png",
-      "dependencies": []
-    },
-    "public/lib/scripts/graph-data.js": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 916,
-      "exportedPath": "public/lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "public/lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 5179,
-      "exportedPath": "public/lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "public/lib/scripts/graph-view.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 15519,
-      "exportedPath": "public/lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "public/lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1717864740991,
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1718041825228,
       "sourceSize": 23377,
-      "exportedPath": "public/lib/scripts/graph-wasm.wasm",
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
-    "public/lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 14021,
-      "exportedPath": "public/lib/scripts/graph-wasm.js",
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
-    "public/lib/scripts/minisearch.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 29422,
-      "exportedPath": "public/lib/scripts/minisearch.js",
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
-    "public/lib/scripts/pixi.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 449511,
-      "exportedPath": "public/lib/scripts/pixi.js",
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
-    "public/lib/scripts/tinycolor.js": {
-      "modifiedTime": 1717864740991,
-      "sourceSize": 29832,
-      "exportedPath": "public/lib/scripts/tinycolor.js",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
-    "public/lib/scripts/webpage.js": {
-      "modifiedTime": 1717864740991,
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 11441,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1718041825228,
       "sourceSize": 47290,
-      "exportedPath": "public/lib/scripts/webpage.js",
+      "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
-    "public/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1717866835498,
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.ico": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 4286,
+      "exportedPath": "lib/media/favicon.ico",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 1086,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 129920,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1718041825228,
       "sourceSize": 311,
-      "exportedPath": "public/lib/styles/global-variable-styles.css",
+      "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
-    "public/lib/styles/main-styles.css": {
-      "modifiedTime": 1717864740991,
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1718041825228,
       "sourceSize": 23130,
-      "exportedPath": "public/lib/styles/main-styles.css",
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "public/lib/styles/obsidian.css": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 157810,
-      "exportedPath": "public/lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "public/lib/metadata.json": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 19059,
-      "exportedPath": "public/lib/metadata.json",
-      "dependencies": []
-    },
-    "public/lib/rss.xml": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 5844,
-      "exportedPath": "public/lib/rss.xml",
-      "dependencies": []
-    },
-    "public/lib/search-index.json": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 11017,
-      "exportedPath": "public/lib/search-index.json",
-      "dependencies": []
-    },
-    "public/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 18203,
-      "exportedPath": "public/index.html",
-      "dependencies": []
-    },
-    "Guides/How to replace nodes.md": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 330,
-      "exportedPath": "guides/how-to-replace-nodes.html",
-      "dependencies": []
-    },
-    "public/api-reference/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 13829,
-      "exportedPath": "public/api-reference/index.html",
-      "dependencies": []
-    },
-    "public/guides/creating-my-first-chatbot.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14683,
-      "exportedPath": "public/guides/creating-my-first-chatbot.html",
-      "dependencies": []
-    },
-    "public/guides/how-to-use-credentials.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14226,
-      "exportedPath": "public/guides/how-to-use-credentials.html",
-      "dependencies": []
-    },
-    "public/guides/how-to-use-custom-tools.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14013,
-      "exportedPath": "public/guides/how-to-use-custom-tools.html",
-      "dependencies": []
-    },
-    "public/guides/how-to-use-variables.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 13980,
-      "exportedPath": "public/guides/how-to-use-variables.html",
-      "dependencies": []
-    },
-    "public/guides/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15235,
-      "exportedPath": "public/guides/index.html",
-      "dependencies": []
-    },
-    "public/guides/integrating-chatbot-in-your-site.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14112,
-      "exportedPath": "public/guides/integrating-chatbot-in-your-site.html",
-      "dependencies": []
-    },
-    "public/guides/using-templates.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14129,
-      "exportedPath": "public/guides/using-templates.html",
-      "dependencies": []
-    },
-    "public/public/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 17330,
-      "exportedPath": "public/public/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "public/public/publish/lib/html/file-tree.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 963,
-      "exportedPath": "public/public/publish/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "public/public/publish/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15422,
-      "exportedPath": "public/public/publish/index.html",
-      "dependencies": []
-    },
-    "public/public/index.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 15444,
-      "exportedPath": "public/public/index.html",
-      "dependencies": []
-    },
-    "public/how-to-replace-nodes.html": {
-      "modifiedTime": 1717866835498,
-      "sourceSize": 14168,
-      "exportedPath": "public/how-to-replace-nodes.html",
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1718041825228,
+      "sourceSize": 22242,
+      "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     }
   }

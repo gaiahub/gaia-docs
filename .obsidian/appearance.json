@@ -1,3 +1,7 @@
 {
-  "accentColor": "#37996b"
+  "accentColor": "#37996b",
+  "enabledCssSnippets": [
+    "snippet",
+    "MCL Multi Column"
+  ]
 }
