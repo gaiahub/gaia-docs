@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Guides/How to use Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Guides/How to use Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Guides/How to use Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Guides/How to use Variables.md"
               }
             }
           }
@@ -138,54 +138,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "aabd08c248ea63ea",
-    "type": "floating",
-    "children": [
-      {
-        "id": "263aa4c5e8f1aefa",
-        "type": "window",
-        "children": [
-          {
-            "id": "7e3fe7fd1ef7ea81",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3af77cdac9f708a0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "index.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 510,
-        "y": 510,
-        "width": 900,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3af77cdac9f708a0",
+  "active": "4ed134a22bf78eff",
   "lastOpenFiles": [
+    "Guides/Anatomy of an application.md",
+    "Guides/Creating my First Chatbot.md",
+    "Guides/How nodes work.md",
+    "Guides/How to replace nodes.md",
+    "Guides/How to use Credentials.md",
+    "Guides/How to use Custom Tools.md",
+    "Guides/How to use Variables.md",
+    "index.md",
     "public_dev/public/public/guides/creating-my-first-chatbot.html",
     "public_dev/public/public/api-reference/index.html",
     "public_dev/public/public/guides",
@@ -196,18 +168,11 @@
     "public_dev/public/lib/metadata.json",
     "public_dev/public/lib/styles/obsidian.css",
     "public_dev/public/lib/styles/main-styles.css",
-    "public_dev/public/lib/styles/global-variable-styles.css",
     "public_dev/public/lib/media/favicon.png",
     "public_dev/public/lib/media/874d8b8e340f75575caa.svg",
     "Guides/Using Templates.md",
     "Guides/Integrating Chatbot in your Site.md",
     "Guides/index.md",
-    "Guides/How to use Variables.md",
-    "Guides/How to use Custom Tools.md",
-    "Guides/How to use Credentials.md",
-    "Guides/How to replace nodes.md",
-    "Guides/Creating my First Chatbot.md",
-    "index.md",
     "Api Reference/index.md",
     "public/public/lib/media/favicon.png",
     "public/public/lib/media/874d8b8e340f75575caa.svg",
