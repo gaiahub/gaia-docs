@@ -1,0 +1,40 @@
+name: Create Pull Request from Fork to Origin
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow when pushing to the main branch (change as needed)
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout forked repository
+      uses: actions/checkout@v2
+      with:
+        repository: ${{ github.repository }}
+        ref: main  # The branch to checkout, change if needed
+
+    - name: Setup Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Add remote origin
+      run: git remote add origin git@github.com:gaiahub/gaia-docs.git 
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Fetch origin
+      run: git fetch origin
+
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        base: origin/main  # The branch you want to merge into
+        head: main  # The branch you want to merge from (your fork's branch)
+        title: "Automated PR from fork"
+        body: |
+          This is an automated pull request from the fork to the origin repository.
